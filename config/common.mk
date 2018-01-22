@@ -121,10 +121,6 @@ PRODUCT_BOOT_JARS += \
 # DU Utils Package
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
-    
-# Gcam
-PRODUCT_PACKAGES += \ 
-    GoogleCamera 
 
 # Required packages
 PRODUCT_PACKAGES += \
