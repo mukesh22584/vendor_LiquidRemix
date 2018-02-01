@@ -195,7 +195,7 @@ endif
 
 # Filter out random types, so it'll reset to UNOFFICIAL
 ifeq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(LIQUID_BUILDTYPE)),)
-    LIQUID_BUILDTYPE :=
+    LIQUID_BUILDTYPE := OFFICIAL
 endif
 
 ifdef LIQUID_BUILDTYPE
