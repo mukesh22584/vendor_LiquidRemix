@@ -15,4 +15,5 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     Turbo \
-    GoogleCamera 
+    GoogleCamera \
+    OnePlusGallery
